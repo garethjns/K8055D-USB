@@ -1,7 +1,7 @@
 % For help/explanation see http://matlaboratory.blogspot.co.uk/2013/04/multiple-vellman-k8055d-usb-boards-in.html
 % Based on code by jarryd http://hackhole.blogspot.co.uk/2007/11/interface-velleman-k8055-usb-board-with.html
 
-function Addresses = K8055_Connect(ChannelAddress)
+function Addresses = K8055D_Connect(ChannelAddress)
 addpath('SET PATH TO .H HERE FIRST'); %folder containing DLL and H files
 
 
